@@ -4,11 +4,13 @@
     top: 0;
 }
 
-.header {
-    height: 72px;
-}
-.navbar-styling {
+.navbar {
     background-color: #3c3a39;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
 }
 
 .logo {
@@ -22,12 +24,94 @@
   cursor: pointer;
   color: #fff;
 }
-  
-li a {
-  color: white;
-  list-style-type: none;
-}
 
 .fa {
-    background: white;
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.socials {
+    background-color: #1c1a19;
+}
+
+.intro {
+    width: 566px;
+    margin-left: -150px;
+}
+
+.intro h1 {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 66px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #f55800;
+}
+
+.info {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  height: 123px;
+}
+
+.my-title {
+  width: 327px;
+  height: 27px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+}
+
+.lang {
+    width: 250px;
+}
+
+.posts {
+    width: 458px;
+}
+
+.posts h2 {
+    width: 458px;
+    height: 48px;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    align-items: center;
+    color: #091e42;
+}
+
+.post-image {
+    width: 684px;
+    height: 448px;
+}
+
+.posts p {
+    width: 448px;
+    height: 140px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #091e42;
+}
+
+@media only screen and (max-width: 786px) {
+    .handle ul {
+        display: flex;
+        width: 200px;
+        border: 1px solid red;
+    }
 }
