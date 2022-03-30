@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+.header {
+    height: 72px;
+}
+.navbar-styling {
+    background-color: #3c3a39;
+}
+
+.logo {
+  width: 200px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 15px;
+  cursor: pointer;
+  color: #fff;
+}
+  
+li a {
+  color: white;
+  list-style-type: none;
+}
+
+.fa {
+    background: white;
+}
