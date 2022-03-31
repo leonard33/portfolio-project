@@ -29,8 +29,7 @@
     color: white;
     height: 50px;
     width: 200px;
-    margin-left: 10px;
-    margin-bottom: 30px;
+  
 }
 
 .socials {
@@ -39,7 +38,7 @@
 
 .intro {
     width: 566px;
-    margin-left: -150px;
+  
 }
 
 .intro h1 {
@@ -108,10 +107,72 @@
     color: #091e42;
 }
 
-@media only screen and (max-width: 786px) {
-    .handle ul {
-        display: flex;
-        width: 200px;
-        border: 1px solid red;
-    }
+.card-title {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.card-text {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.work-intro {
+    font-family: "Crete Round", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+}
+
+.my-info {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 67px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+.about-info {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+.bottom {
+    background: #1c1a19;
+}
+
+.dot {
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
+  border-radius: 150px;
+  display: block;
+}
+
+.box {
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
+}
+
+.box-rotate {
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
+  transform: rotate(-45deg);
 }
