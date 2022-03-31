@@ -176,3 +176,11 @@
   background: #ff6b00;
   transform: rotate(-45deg);
 }
+
+.languages a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
