@@ -184,3 +184,21 @@
   font-size: 18px;
   color: white;
 }
+
+.contact-paragraph {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  font-size: 32px;
+  color: #172b4d;
+}
+
+.fa {
+  color: #505f79;
+}
+
+.footer-socials {
+  border-top: 1px solid #e5e5e5;
+  width: 100vw;
+}
